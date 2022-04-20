@@ -1,0 +1,25 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+.navbutton {
+  background-color: green;
+  width: 100px;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.dropdown .navbutton {
+  background-color: green;
+  margin-left: -30px;
+  display: block;
+}
+.dropdown {
+  position: absolute;
+  padding-top: 20px;
+  display: none;
+}
+.navbutton:hover .dropdown {
+  display: block;
+}

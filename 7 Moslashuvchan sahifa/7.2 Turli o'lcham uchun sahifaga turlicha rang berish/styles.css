@@ -1,0 +1,21 @@
+/* Global */
+.rectangle {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+/* Planshet */
+@media (max-width: 700px) {
+  .rectangle {
+    background-color: green;
+  }
+}
+
+/* Mobil */
+@media (max-width: 500px) {
+  .rectangle {
+    background-color: grey;
+  }
+}

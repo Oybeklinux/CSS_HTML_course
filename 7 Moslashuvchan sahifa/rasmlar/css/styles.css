@@ -1,0 +1,47 @@
+.container {
+  max-width: 1092px;
+  min-height: 400px;
+  /* background-color: red; */
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  width: 30%;
+  min-height: 100px;
+  background-color: rgb(234 181 2);
+  margin-bottom: 40px;
+  color: white;
+}
+.col p::first-line {
+  font-weight: bold;
+}
+.col p {
+  padding: 10px 20px;
+  text-align: center;
+}
+.col img {
+  width: 100%;
+}
+
+@media (max-width: 786px) {
+  .col {
+    width: 45%;
+  }
+
+  .hidep {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .col {
+    width: 100%;
+  }
+
+  .hidem {
+    display: none;
+  }
+}

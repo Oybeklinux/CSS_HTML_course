@@ -1,0 +1,19 @@
+body {
+  background-image: linear-gradient(to bottom, #41d9eb, #1b7980);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 300;
+}
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0);
+}
+.lead {
+  font-size: 2.3rem;
+  color: white;
+}
+.drop-shadow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

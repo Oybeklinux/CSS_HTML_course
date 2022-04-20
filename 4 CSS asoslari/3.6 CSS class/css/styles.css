@@ -1,0 +1,17 @@
+/* TAG selector */
+h1 {
+  color: lightcoral;
+  font-size: 50px;
+}
+/* img {
+  background-color: lightcoral;
+} */
+.pingving {
+  background-color: lightcoral;
+  height: 200px;
+}
+
+.grapefruit {
+  height: 50px;
+  background-color: lightgreen;
+}

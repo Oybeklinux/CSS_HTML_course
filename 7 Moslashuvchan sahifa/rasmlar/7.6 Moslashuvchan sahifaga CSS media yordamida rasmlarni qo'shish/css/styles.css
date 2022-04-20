@@ -1,0 +1,32 @@
+.container {
+  max-width: 1092px;
+  min-height: 400px;
+  /* background-color: red; */
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  width: 30%;
+  min-height: 100px;
+  /* background-color: greenyellow; */
+  margin-bottom: 30px;
+}
+.col img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 786px) {
+  .col {
+    width: 45%;
+  }
+}
+
+@media (max-width: 500px) {
+  .col {
+    width: 100%;
+  }
+}
